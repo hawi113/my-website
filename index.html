@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Editor Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- AOS Animation CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="animated-bg"></div>
+    <div class="overlay">
+      <h1 data-aos="fade-up">Hi, I’m <span>yonas</span></h1>
+      <p data-aos="fade-up" data-aos-delay="200">I create stunning short-form videos and reels that grab attention.</p>
+      <a href="#portfolio" class="btn" data-aos="zoom-in" data-aos-delay="400">See My Work</a>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <h2 data-aos="fade-down">My Reels</h2>
+    <div class="grid">
+      <div class="item" data-aos="flip-left">
+        <iframe src="https://www.youtube.com/embed/9_GQemTTOA4" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="item" data-aos="flip-left" data-aos-delay="200">
+        <iframe src="https://www.youtube.com/embed/jMGCJUfp-UI" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="item" data-aos="flip-left" data-aos-delay="400">
+        <iframe src="https://www.youtube.com/embed/VaVjbin88TM" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="item" data-aos="flip-left" data-aos-delay="600">
+        <iframe src="https://www.youtube.com/embed/4wh7jjHsovs" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2 data-aos="fade-up">About Me</h2>
+    <div class="about-content" data-aos="zoom-in">
+      <img src="yonas.jpg" alt="Your Photo">
+      <p>I’m a passionate reels editor, helping creators and brands produce engaging short videos for TikTok, Instagram, and YouTube Shorts. Let’s work together to make your content go viral!</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:your@email.com">y6809813@email.com</a></p>
+    <p>Follow me on <a href="https://www.instagram.com/yg_capital113/">Instagram</a> | <a href="#">YouTube</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 mr jographics. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
